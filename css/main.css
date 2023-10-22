@@ -10,10 +10,23 @@ body{
 	border-radius: 20px;
 }
 
-#embedVideo {
+#rainbow {
   border: 5px solid transparent;
   border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
   border-image-slice: 1;
   margin: 20px auto;
   border-width: 10px;
+}
+#welcome {
+	text-align: center;
+	font-family: roboto;
+	padding: 10px;
+	background-color: #545c8c;
+	border-radius: 50px;
+	color: white;
+}
+
+#youtubeLinkButton {
+	padding: 10px;
+	background-color: white;
 }
